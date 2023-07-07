@@ -1,10 +1,33 @@
 import logo from './logo.svg';
 import './App.css';
+import Skills from './components/Skills';
+
+
+
+
+import './App.css';
+import Users from './components/Users';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+   <div>
+    <Users />
+   </div>
+  );
+}
+
+export default App;
+// function App() {
+//   const skills = [
+//     {id:1,name:"plumbing"},
+//     {id:2,name:"wiring"},
+//     {id:3,name:"painting"}
+// ]
+//   return (
+//     <div className="App">
+//       <Skills skills={skills} />
+      {/* <header className
+      ="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,9 +40,13 @@ function App() {
         >
           Learn React
         </a>
-      </header>
-    </div>
+      </header> */}
+      
+     {/* </div>
   );
 }
 
-export default App;
+export default App; */}
+
+
+
